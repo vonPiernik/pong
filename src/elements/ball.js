@@ -6,7 +6,6 @@ export class Ball extends Element {
     }
 
     process(ms) {
-        console.log('cyk');
         this.centerX += 10;
         this.centerY += 10;
     }

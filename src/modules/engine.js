@@ -3,7 +3,7 @@ import {Scene} from "./scene";
 
 export class Engine {
     start() {
-        console.log('start ngine');
+        this.runScene();
     }
 
     runScene() {

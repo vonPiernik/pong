@@ -23,7 +23,9 @@ export class Scene {
         canvas.width = 700;
         canvas.height = 700;
 
-        document.querySelector('#pong').append(canvas);
+        const pong = document.querySelector('#pong')
+        pong.innerHTML = "";
+        pong.append(canvas);
 
         this.canvas = canvas;
     }

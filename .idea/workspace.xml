@@ -11,15 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41440b8d-a430-4ec4-8c7f-873353ea9a95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/elements/player.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/elements/ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/ball.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/player.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/engine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/scene.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/scene.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606566177422</updated>
-      <workItem from="1606566178457" duration="8768000" />
+      <workItem from="1606566178457" duration="10134000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1606569568446</created>
@@ -93,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606572792760</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add player">
+      <created>1606575072205</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606575072205</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,13 +118,18 @@
     <MESSAGE value="Improve game restart" />
     <MESSAGE value="Move part of the code" />
     <MESSAGE value="Add canvas overfloww processing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add canvas overfloww processing" />
+    <MESSAGE value="Add player" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add player" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="551" y="236" key="Vcs.Push.Dialog.v2" timestamp="1606572794722">
+    <state x="551" y="236" key="Vcs.Push.Dialog.v2" timestamp="1606575073463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="236" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606572794722" />
+    <state x="551" y="236" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606575073463" />
+    <state x="667" y="243" width="585" height="554" key="find.popup" timestamp="1606576239018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="243" width="585" height="554" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606576239018" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1606567248822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

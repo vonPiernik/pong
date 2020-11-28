@@ -11,6 +11,8 @@ export class Player extends Element {
     constructor() {
         super();
 
+        this.canOverflowCanvas = true;
+
         this.velocity = 7;
         this.width = 15;
         this.height = 40;
@@ -18,9 +20,11 @@ export class Player extends Element {
 
     process(ms) {
         this.processKeyboardInput(ms);
+
+        super.process(ms);
     }
 
-    draw(canvas) {
+    draw() {
         this.drawPlayer();
     }
 
@@ -49,5 +53,8 @@ export class Player extends Element {
         if($engine.input.isKeyPressed(KEYBOARD_ARROW_RIGHT)) {
             this.posX += this.velocity;
         }
+
+        this.centerX = this.posX + this.width / 2;
+        this.centerY = this.posY + this.height / 2;
     }
 }

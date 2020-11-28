@@ -3,19 +3,21 @@ import {
     KEYBOARD_ARROW_DOWN,
     KEYBOARD_ARROW_LEFT,
     KEYBOARD_ARROW_RIGHT,
-    KEYBOARD_ARROW_Right,
     KEYBOARD_ARROW_UP
 } from "../modules/input";
+import {RoundObject} from "../modules/round_object";
 
-export class Player extends Element {
+export class Player extends RoundObject {
     constructor() {
         super();
 
         this.canOverflowCanvas = true;
 
-        this.velocity = 7;
-        this.width = 15;
-        this.height = 40;
+        this.centerX = $engine.getScene().canvasCircleRadius;
+        this.centerY = 0;
+        this.angle = -180;
+        this.radius = 20;
+        this.fillStyle = 'red';
     }
 
     process(ms) {
@@ -24,37 +26,25 @@ export class Player extends Element {
         super.process(ms);
     }
 
-    draw() {
-        this.drawPlayer();
-    }
-
-    drawPlayer() {
-        const ctx = $engine.getScene().get2DContext();
-
-        ctx.beginPath();
-        ctx.rect(this.posX, this.posY, this.width, this.height );
-        ctx.fillStyle = 'red';
-        ctx.fill();
+    pointsOnCircle({ radius, angle, cx, cy }){
+        angle = angle * ( Math.PI / 180 ); // Convert from Degrees to Radians
+        const x = cx + radius * Math.sin(angle);
+        const y = cy + radius * Math.cos(angle);
+        return [ x, y ];
     }
 
     processKeyboardInput(ms) {
-        if($engine.input.isKeyPressed(KEYBOARD_ARROW_DOWN)) {
-            this.posY += this.velocity;
-        }
-
-        if($engine.input.isKeyPressed(KEYBOARD_ARROW_UP)) {
-            this.posY -= this.velocity;
-        }
-
         if($engine.input.isKeyPressed(KEYBOARD_ARROW_LEFT)) {
-            this.posX -= this.velocity;
+            this.angle += 1.5;
         }
 
         if($engine.input.isKeyPressed(KEYBOARD_ARROW_RIGHT)) {
-            this.posX += this.velocity;
+            this.angle -= 1.5;
         }
 
-        this.centerX = this.posX + this.width / 2;
-        this.centerY = this.posY + this.height / 2;
+        const [ x, y ] = this.pointsOnCircle({ radius: $engine.getScene().canvasCircleRadius, angle: this.angle, cx: $engine.getScene().canvasCircleCenterX, cy: $engine.getScene().canvasCircleCenterX });
+
+        this.centerX = x;
+        this.centerY = y;
     }
 }

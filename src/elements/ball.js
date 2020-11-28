@@ -1,11 +1,11 @@
 import {Element} from '../modules/element';
+import {RoundObject} from "../modules/round_object";
 
-export class Ball extends Element {
+export class Ball extends RoundObject {
     constructor() {
         super();
 
         this.canOverflowCanvas = true;
-        this.isRound = true;
 
         this.radius = 10;
     }
@@ -14,22 +14,6 @@ export class Ball extends Element {
         this.processMovement();
 
         super.process(ms);
-    }
-
-    draw() {
-        this.drawBall();
-    }
-
-    drawBall() {
-        const ctx = $engine.getScene().get2DContext();
-
-        ctx.beginPath();
-        ctx.arc(this.centerX, this.centerY, this.radius, 0, 2 * Math.PI, false);
-        ctx.fillStyle = 'green';
-        ctx.fill();
-        ctx.lineWidth = 5;
-        ctx.strokeStyle = '#003300';
-        ctx.stroke();
     }
 
     processMovement() {

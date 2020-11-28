@@ -2,6 +2,10 @@ export class Scene {
     constructor() {
         this.elements = [];
         this.canvas = null;
+
+        this.canvasCircleRadius = 350;
+        this.canvasCircleCenterX = 350;
+        this.canvasCircleCenterY = 350;
     }
 
     addElement(element) {
@@ -20,8 +24,8 @@ export class Scene {
         let canvas = document.createElement('canvas');
         canvas.id = "main_canvas";
         canvas.classList.add("main-canvas");
-        canvas.width = 700;
-        canvas.height = 700;
+        canvas.width = this.canvasCircleRadius * 2;
+        canvas.height = this.canvasCircleRadius * 2;
 
         const pong = document.querySelector('#pong')
         pong.innerHTML = "";
@@ -37,7 +41,7 @@ export class Scene {
     }
 
     clear() {
-        this.get2DContext().clearRect(0, 0, 700, 700);
+        this.get2DContext().clearRect(0, 0, this.canvasCircleRadius * 2, this.canvasCircleRadius * 2);
     }
 
     getCanvas() {

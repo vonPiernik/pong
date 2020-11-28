@@ -11,11 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41440b8d-a430-4ec4-8c7f-873353ea9a95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/modules/round_object.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/elements/ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/ball.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/elements/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/scene.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/scene.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +44,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/elements" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/modules" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Norbert\OneDrive\PROJECTS\UpSell\pong\src\modules" />
       <recent name="C:\Users\Norbert\OneDrive\PROJECTS\UpSell\pong\src\elements" />
     </key>
   </component>
@@ -59,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606566177422</updated>
-      <workItem from="1606566178457" duration="10134000" />
+      <workItem from="1606566178457" duration="14593000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1606569568446</created>
@@ -96,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606575072205</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add player overflowing">
+      <created>1606576468845</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606576468845</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,13 +129,14 @@
     <MESSAGE value="Move part of the code" />
     <MESSAGE value="Add canvas overfloww processing" />
     <MESSAGE value="Add player" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add player" />
+    <MESSAGE value="Add player overflowing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add player overflowing" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="551" y="236" key="Vcs.Push.Dialog.v2" timestamp="1606575073463">
+    <state x="551" y="236" key="Vcs.Push.Dialog.v2" timestamp="1606576471295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="236" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606575073463" />
+    <state x="551" y="236" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606576471295" />
     <state x="667" y="243" width="585" height="554" key="find.popup" timestamp="1606576239018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

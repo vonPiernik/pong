@@ -13,7 +13,6 @@ export class Input
                 return;
             }
 
-            console.log(event.code)
             this.pressedKeys.push(event.code);
         });
 

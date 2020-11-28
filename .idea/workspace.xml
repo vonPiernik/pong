@@ -11,9 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41440b8d-a430-4ec4-8c7f-873353ea9a95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/elements/player.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/elements/ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/ball.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/engine.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/scene.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/scene.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +46,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/elements" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Norbert\OneDrive\PROJECTS\UpSell\pong\src\elements" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -53,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606566177422</updated>
-      <workItem from="1606566178457" duration="6507000" />
+      <workItem from="1606566178457" duration="8768000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1606569568446</created>
@@ -76,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606571234596</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add canvas overfloww processing">
+      <created>1606572792760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606572792760</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,13 +114,14 @@
     <MESSAGE value="Init" />
     <MESSAGE value="Improve game restart" />
     <MESSAGE value="Move part of the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move part of the code" />
+    <MESSAGE value="Add canvas overfloww processing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add canvas overfloww processing" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="551" y="236" key="Vcs.Push.Dialog.v2" timestamp="1606571236978">
+    <state x="551" y="236" key="Vcs.Push.Dialog.v2" timestamp="1606572794722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="236" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606571236978" />
+    <state x="551" y="236" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606572794722" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1606567248822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -10,14 +10,14 @@ export class Ball extends Element {
         this.centerY += 7;
     }
 
-    draw(canvas) {
-        this.processCanvasOverflow(canvas);
+    draw() {
+        this.processCanvasOverflow();
 
-        this.drawBall(canvas);
+        this.drawBall();
     }
 
-    drawBall(canvas) {
-        const ctx = canvas.getContext('2d');
+    drawBall() {
+        const ctx = $engine.getScene().get2DContext();
         const radius = 10;
 
         ctx.beginPath();
@@ -29,12 +29,12 @@ export class Ball extends Element {
         ctx.stroke();
     }
 
-    processCanvasOverflow(canvas) {
-        if(this.centerY > canvas.height || this.centerY < 0){
+    processCanvasOverflow() {
+        if(this.centerY > $engine.getScene().getCanvas().height || this.centerY < 0){
             this.centerY = 0;
         }
 
-        if(this.centerX > canvas.width || this.centerX < 0) {
+        if(this.centerX > $engine.getScene().getCanvas().width || this.centerX < 0) {
             this.centerX = 0;
         }
     }

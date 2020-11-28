@@ -27,19 +27,24 @@ export class Scene {
         pong.innerHTML = "";
         pong.append(canvas);
 
-        console.log(canvas)
         this.canvas = canvas;
     }
 
     drawElements() {
         this.getElements().forEach(element => {
-            element.draw(this.canvas, 1);
-            element.draw(this.canvas, 2);
-            element.draw(this.canvas, 3);
+            element.draw();
         })
     }
 
     clear() {
-        this.canvas.getContext('2d').clearRect(0, 0, 700, 700);
+        this.get2DContext().clearRect(0, 0, 700, 700);
+    }
+
+    getCanvas() {
+        return this.canvas;
+    }
+
+    get2DContext() {
+        return this.canvas.getContext('2d');
     }
 }

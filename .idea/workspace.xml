@@ -13,11 +13,8 @@
     <list default="true" id="41440b8d-a430-4ec4-8c7f-873353ea9a95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/elements/ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/ball.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/engine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/scene.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/scene.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/element.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606566177422</updated>
-      <workItem from="1606566178457" duration="4388000" />
+      <workItem from="1606566178457" duration="4931000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1606569568446</created>
@@ -65,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606569568446</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Improve game restart">
+      <created>1606570683957</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606570683957</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,13 +88,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Improve game restart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve game restart" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="551" y="236" key="Vcs.Push.Dialog.v2" timestamp="1606569570497">
+    <state x="551" y="236" key="Vcs.Push.Dialog.v2" timestamp="1606570786650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="236" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606569570497" />
+    <state x="551" y="236" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606570786650" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1606567248822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

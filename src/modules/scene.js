@@ -27,6 +27,7 @@ export class Scene {
         pong.innerHTML = "";
         pong.append(canvas);
 
+        console.log(canvas)
         this.canvas = canvas;
     }
 
